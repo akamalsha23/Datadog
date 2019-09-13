@@ -5,3 +5,6 @@ are you able to manually establish this connection?
 
 Could you please try to curl the endpoint 
 curl https://6-13-0-app.agent.datadoghq.com/api/v1/series?api_key=YOUR_API_KEY
+
+Outgoing UDP traffic over the port 123 should be allowed so the Agent can confirm that the local server time is reasonably 
+accurate according to the Datadog NTP servers
